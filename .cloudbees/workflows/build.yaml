@@ -6,7 +6,7 @@ on:
     branches:
       - "**"
 jobs:
-  ci-job:
+  ci-jobx:
     steps:
       - uses: docker://alpine/git:latest
         run: |
