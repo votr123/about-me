@@ -7,6 +7,7 @@ on:
       - "**"
 jobs:
   ci-jobx:
+    environment: test
     steps:
       - uses: docker://alpine/git:latest
         run: |
